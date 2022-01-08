@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+}
+
+.language {
+    position: absolute;
+    height: 50px;
+    left: 93.75%;
+    right: 1.39%;
+    top: 20px;
+}
+
+.bg {
+    position: absolute;
+    width: 1440px;
+    height: 910px;
+    left: 0px;
+    top: 0px;
+    background: url(./assets/img/bg.jpg);
+    z-index: -1;
+}
+
+.section {
+
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    position: absolute;
+    height: 50px;
+    left: 59.03%;
+    right: 6.25%;
+    top: 20px;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    
+}
+
+.nav-link {
+    transition: .3s;
+  }
+
+.nav-link:hover {
+  color: white;
+}
+
+  .section-item a {
+    font-family: Inter;
+    color: #FFFFFF;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #FFFFFF;
+  }
+    
+  
+
+
+
+
+для заголовков шрифт с засечками Merriweather, bold font-weight: 700
+для основного текста страницы шрифт без засечек Inter, regular font-weight: 400 и bold font-weight: 700.
+
+@font-face {
+    font-family: 'Merriweather, serif';
+    src: url("assets/fonts/Merriweather-Bold.ttf");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Inter, sans-serif';
+    src: url("assets/fonts/static/Inter-Regular.ttf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Inter, sans-serif';
+    src: url("assets/fonts/static/Inter-Bold.ttf");
+    font-weight: 700;
+  }
+
